@@ -1,0 +1,107 @@
+.navBar {
+    background-color: $negro;
+    height: 40px;
+    input {
+        display: none;
+    }
+
+    label {
+        display: none;
+        img {
+            width: 15px;
+        }
+    }
+}
+
+.btnLogo {
+    border: 0;
+    background-color: $negro;
+    height: 20px;
+    img {
+        height: 20px;
+    }
+}
+
+
+
+.menuGrupo {
+    display: flex;
+}
+
+.menuBar {
+    border: none;
+    background: none;
+        a {
+            color: $gris;
+            text-decoration: none;
+            list-style: none;
+            font-size: 15px;
+    }
+}
+
+.menuBar a:hover {
+    color: $detalle;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdownMenu {
+    position: absolute;
+    left: -30px;
+    top: calc(100% + 10px);
+    background-color: $grisSec;
+    padding-right: 20px;
+    padding-top: 5px;
+    width: 200px;
+    color: $gris;
+    text-decoration: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 1);
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    li {
+        list-style: none;
+        font-size: 15px;
+    }
+}
+
+.dropdown > .menuBar:focus + .dropdownMenu {
+    opacity: 1;
+
+    transform: translateY(0);
+}
+
+.txtDecoration {
+    @extend .menuBar;
+    font-size: 15px;
+}
+
+.imgCarrito {
+    height: 20px;
+    padding-top: 0px;
+}
+
+.cantCarrito {
+    color: $detalle;
+}
+
+.btnCarrito {
+    border: 0;
+    background-color: $negro;
+    padding: 0;
+    margin: 0;
+    height: 0px;
+}
+
+.contenidoCarrito {
+    position: absolute;
+    width: 250px;
+    right: 0;
+    background-color: $grisSec;
+}
+
+
+
+
