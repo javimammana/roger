@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Secciones = () => {
     return (
         <>
-            <li className='px-3'><button className='menuBar'><a className=''>Nosotros</a></button></li>
-            <li className='px-3'><button className='menuBar'><a className=''>Contacto</a></button></li>
+            <li className='px-3 menuBar'><Link>Nosotros</Link></li>
+            <li className='px-3 menuBar'><Link>Contacto</Link></li>
         </>
     );
 }

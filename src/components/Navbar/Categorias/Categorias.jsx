@@ -1,16 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Categorias = () => {
+
     return (
-            <li className='dropdown px-3'>
-                <button className='menuBar'><a className=''>Productos</a></button>
-                <div className='dropdownMenu'>
-                    <ul className>
-                        <li><button className='txtDecoration'><a className=''>Cuidado de la Piel</a></button></li>
-                        <li className='my-3'><button className='txtDecoration'><a className=''>Cuidado del Cabello</a></button></li>
-                        <li><button className='txtDecoration'><a className=''>Cuidados Especiales</a></button></li>
-                    </ul>
-                </div>
+            <li className='dropdown px-3 menuBar'><Link>Productos</Link>
+                <ul className='dropdownMenu'>
+                    <li className='txtDecoration'><Link to={`/category/Rostro`}>Cuidado de Rostro</Link></li>
+                    <li className='txtDecoration'><Link to={`/category/Cuerpo`}>Cuidado del Cuerpo</Link></li>
+                    <li className='txtDecoration'><Link to={`/category/Especial`}>Cuidados Especiales</Link></li>
+                </ul>
             </li>
     );
 }

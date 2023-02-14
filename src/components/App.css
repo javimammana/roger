@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  text-decoration: none;
+  text-decoration: none !important;
   font-family: "Didact Gothic", sans-serif;
   box-sizing: border-box;
 }
@@ -36,10 +36,6 @@
   display: flex;
 }
 
-.menuBar, .txtDecoration {
-  border: none;
-  background: none;
-}
 .menuBar a, .txtDecoration a {
   color: #D2D4D5;
   text-decoration: none;
@@ -47,8 +43,9 @@
   font-size: 15px;
 }
 
-.menuBar a:hover, .txtDecoration a:hover {
+.menuBar :hover, .txtDecoration :hover {
   color: #F9D32B;
+  transition: all 0.3s;
 }
 
 .dropdown {
@@ -58,7 +55,7 @@
 .dropdownMenu {
   position: absolute;
   left: -30px;
-  top: calc(100% + 10px);
+  top: calc(100% + 5px);
   background-color: #606163;
   padding-right: 20px;
   padding-top: 5px;
@@ -75,7 +72,7 @@
   font-size: 15px;
 }
 
-.dropdown > .menuBar:focus + .dropdownMenu, .dropdown > .txtDecoration:focus + .dropdownMenu {
+.dropdown:hover .dropdownMenu {
   opacity: 1;
   transform: translateY(0);
 }
@@ -106,6 +103,87 @@
   width: 250px;
   right: 0;
   background-color: #606163;
+}
+
+.cardClass {
+  background-color: #D2D4D5;
+  width: 250px;
+  color: #000;
+  transition: all 0.5s;
+}
+.cardClass img {
+  width: 200px;
+}
+
+.cardClass:hover {
+  transform: scale(1.05);
+  background-color: #606163;
+  color: #D2D4D5;
+}
+.cardClass:hover .cardBtn {
+  opacity: 100%;
+  background-color: #000;
+  color: #F9D32B;
+}
+
+.cardBtn {
+  opacity: 0%;
+  transition: all 0.5s;
+  border: 0px;
+  background-color: #606163;
+  color: #D2D4D5;
+  width: 100%;
+}
+
+.cardDetail {
+  background-color: #D2D4D5;
+}
+.cardDetail div img {
+  width: 100%;
+}
+
+.btnDetail {
+  background-color: #606163;
+  color: #D2D4D5;
+  border: 0px;
+  transition: all 0.5s;
+}
+
+.btnDetail:hover {
+  background-color: #000;
+  color: #F9D32B;
+  transform: scale(1.02);
+}
+
+.contadorClass {
+  display: flex;
+  width: 75px;
+  justify-content: space-between;
+}
+
+.btnContador, .btnMenos, .btnMas {
+  width: 25px;
+  height: 25px;
+  border: 0px;
+  background-color: #606163;
+  color: #D2D4D5;
+  transition: all 0.5s;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnMenos:hover {
+  color: #F9D32B;
+  background-color: #000;
+  transform: scale(0.9);
+}
+
+.btnMas:hover {
+  color: #F9D32B;
+  background-color: #000;
+  transform: scale(1.1);
 }
 
 @media (max-width: 480px) {

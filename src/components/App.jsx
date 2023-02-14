@@ -1,17 +1,26 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import Navbar from './Navbar/Navbar';
 import ItemListContainer from './ItemListContainer/ItemListContainer';
-import ItemCount from './ItemCount/ItemCount';
+import ItemDetailContainer from './ItemDetailContainer/ItemDetailContainer';
+
 
 
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <ItemListContainer greeting={"Los mejores productos para el cuidado de tu Piel.-"}/>
-      <ItemCount valInicial={1} stock={10}/>
-    </div>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element = {<ItemListContainer/>}/>
+          <Route path='/category/:idCategoria' element = {<ItemListContainer/>}/>
+          <Route path='/item/:id' element = {<ItemDetailContainer/>}/>
+        </Routes>
+      </BrowserRouter>
+
+    </>
   );
 }
 

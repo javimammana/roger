@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "Loreal Paris",
+        "nombre": "Hydra Energetic Anti-fatiga",
+        "precio": 60000,
+        "stock": 30,
+        "img": "lorealHydraEnergetic.png"
+    },
+    {
+        "id": 2,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "Loreal Paris",
+        "nombre": "Hydra Energetic Gel Limpiador",
+        "precio": 60000,
+        "stock": 30,
+        "img": "lorealHydraGelLimpiador.png"
+    },
+    {
+        "id": 3,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "Loreal Paris",
+        "nombre": "Hydra Energetic Gel Ultra Hidratante",
+        "precio": 60000,
+        "stock": 30,
+        "img": "lorealHydraGelUltra.png"
+    },
+        {
+        "id": 4,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "Loreal Paris",
+        "nombre": "Hydra Energetic AfterShave",
+        "precio": 60000,
+        "stock": 30,
+        "img": "lorealHydraAfterShave.png"
+    },
+    {
+        "id": 5,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "Loreal Paris",
+        "nombre": "Hydra Energetic Roll-on Ojos",
+        "precio": 60000,
+        "stock": 30,
+        "img": "lorealHydraRollOn.png"
+    },
+    {
+        "id": 6,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "Loreal Paris",
+        "nombre": "Vita Lift Crema Anti-Edad Hidratante",
+        "precio": 60000,
+        "stock": 30,
+        "img": "lorealVitaAntiEdad.png"
+    },
+    {
+        "id": 7,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "Nivea MEN",
+        "nombre": "Creme",
+        "precio": 60000,
+        "stock": 30,
+        "img": "niveaMenCreme.png"
+    },
+        {
+        "id": 8,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "Nivea MEN",
+        "nombre": "Active Energy Hidratante",
+        "precio": 60000,
+        "stock": 30,
+        "img": "niveaMenActiveEnergyHidratante.png"
+    },
+    {
+        "id": 9,
+        "idCategoria": 2,
+        "categoria": "Cuerpo",
+        "marca": "Nivea MEN",
+        "nombre": "Protector Hidratante",
+        "precio": 60000,
+        "stock": 30,
+        "img": "niveaMenProtectorHidratante.png"
+    },
+    {
+        "id": 10,
+        "idCategoria": 2,
+        "categoria": "Cuerpo",
+        "marca": "Nivea MEN",
+        "nombre": "Active Clean Shower Gel",
+        "precio": 60000,
+        "stock": 30,
+        "img": "niveaMenActiveCleanShower.png"
+    },
+        {
+        "id": 11,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "Asepxia",
+        "nombre": "Carbon Activo Jabon en Barra",
+        "precio": 60000,
+        "stock": 30,
+        "img": "asepxiaCarbonJabonBarra.png"
+    },
+    {
+        "id": 12,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "Asepxia",
+        "nombre": "Carbon Activo Mascarilla Purificante",
+        "precio": 60000,
+        "stock": 30,
+        "img": "asepxiaCarbonMascarilla.png"
+    },
+        {
+        "id": 13,
+        "idCategoria": 2,
+        "categoria": "Cuerpo",
+        "marca": "Veet MEN",
+        "nombre": "Crema Depilatoria Todo el Cuerpo",
+        "precio": 60000,
+        "stock": 30,
+        "img": "veetMenCremaDepilatoria.png"
+    },
+    {
+        "id": 14,
+        "idCategoria": 2,
+        "categoria": "Cuerpo",
+        "marca": "Depimiel",
+        "nombre": "Crema Depilatoria Cuerpo",
+        "precio": 60000,
+        "stock": 30,
+        "img": "depimielCremaDepilatoriaCuerpo.png"
+    },
+    {
+        "id": 15,
+        "idCategoria": 2,
+        "categoria": "Cuerpo",
+        "marca": "Depimiel",
+        "nombre": "Crema Depilatoria Intima",
+        "precio": 60000,
+        "stock": 30,
+        "img": "depimielCremaDepilatoriaIntima.png"
+    },
+    {
+        "id": 16,
+        "idCategoria": 3,
+        "categoria": "Especial",
+        "marca": "Philips",
+        "nombre": "OneBlade",
+        "precio": 60000,
+        "stock": 30,
+        "img": "philipsOneBlade.png"
+    },
+        {
+        "id": 17,
+        "idCategoria": 3,
+        "categoria": "Especial",
+        "marca": "Philips",
+        "nombre": "OneBlade Cabezal x 1",
+        "precio": 60000,
+        "stock": 30,
+        "img": "philipsOneBladeRepuesto.png"
+    },
+    {
+        "id": 18,
+        "idCategoria": 3,
+        "categoria": "Especial",
+        "marca": "Philips",
+        "nombre": "Afeitadora Series3000",
+        "precio": 60000,
+        "stock": 30,
+        "img": "philipsAfeitadora3000.png"
+    },
+    {
+        "id": 19,
+        "idCategoria": 3,
+        "categoria": "Especial",
+        "marca": "Braun",
+        "nombre": "Afeitadora Series 5",
+        "precio": 60000,
+        "stock": 30,
+        "img": "braunAfeitadoraS5.png"
+    },
+    {
+        "id": 20,
+        "idCategoria": 3,
+        "categoria": "Especial",
+        "marca": "Braun",
+        "nombre": "Afeitadora Corporal CruzerBody 5",
+        "precio": 60000,
+        "stock": 30,
+        "img": "braunAfeitadoraCruzerBody5.png"
+    },
+        {
+        "id": 21,
+        "idCategoria": 3,
+        "categoria": "Especial",
+        "marca": "Remington",
+        "nombre": "Cepillo Facial Recharge",
+        "precio": 60000,
+        "stock": 30,
+        "img": "remingtonCepilloFacial.png"
+    }
+]

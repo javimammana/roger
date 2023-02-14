@@ -1,0 +1,91 @@
+.cardClass {
+    background-color: $gris;
+    width: 250px;
+    color: $negro;
+    transition: all 0.5s;
+    img {
+        width: 200px;
+    }
+
+}
+
+.cardClass:hover {
+    transform: scale(1.05);
+    background-color: $grisSec;
+    color: $gris;
+    .cardBtn {
+        opacity: 100%;
+        background-color: $negro;
+        color: $detalle;
+    }
+}
+
+.cardBtn {
+    opacity: 0%;
+    transition: all 0.5s;
+    border: 0px;
+    background-color: $grisSec;
+    color: $gris;
+    width: 100%;
+}
+
+.cardDetail {
+    background-color: $gris;
+    div {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.btnDetail {
+    background-color: $grisSec;
+    color: $gris;
+    border: 0px;
+    transition: all 0.5s;
+}
+
+.btnDetail:hover {
+    background-color: $negro;
+    color: $detalle;
+    transform: scale(1.02);
+}
+
+.contadorClass {
+    display: flex;
+    width: 75px;
+    justify-content: space-between;
+}
+
+.btnContador{
+    width: 25px;
+    height: 25px;
+    border: 0px;
+    background-color: $grisSec;
+    color: $gris;
+    transition: all 0.5s;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnMas {
+    @extend .btnContador;
+}
+
+.btnMenos {
+    @extend .btnContador;
+}
+
+.btnMenos:hover {
+    color: $detalle;
+    background-color: $negro;
+    transform: scale(0.9);
+}
+
+.btnMas:hover {
+    color: $detalle;
+    background-color: $negro;
+    transform: scale(1.1);
+}
