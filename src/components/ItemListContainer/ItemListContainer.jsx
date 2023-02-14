@@ -2,13 +2,13 @@ import React from 'react';
 import {useState,useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import { consultarBDD } from '../../utils/funciones';
-
-
 import ItemList from '../ItemList/ItemList';
 
 const ItemListContainer = () => {
 
     const {idCategoria} = useParams ()
+
+    console.log(idCategoria)
 
     const [productos, setProductos] = useState([])
     useEffect ( () => {
@@ -19,6 +19,7 @@ const ItemListContainer = () => {
                 const prods = products.filter(prod => prod.idCategoria === idCategoriaId.idCategoria)
                 const items = ItemList({prods})
                 setProductos (items)
+                console.log(idCategoriaId.idCategoria)
             })
         } else {
             consultarBDD('./json/productos.json').then (prods => {

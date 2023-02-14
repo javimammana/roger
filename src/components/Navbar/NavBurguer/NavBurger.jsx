@@ -1,11 +1,14 @@
 import React from 'react';
-import imgBurger from '../NavBurguer/img/burger.png';
+
 const NavBurger = () => {
     return (
-        <>
-            <label className='me-3' htmlFor="burger"><img src={imgBurger} alt="Menu" /></label>
-            <input type="checkbox" name id="burger" />
-        </>
+        // <>
+        //     <label className='me-3' htmlFor="burger"><img src='../img/burger.png' alt="Menu" /></label>
+        //     <input type="checkbox" name id="burger" />
+        // </>
+            <>
+                <img className='me-3 mt-1 menuBurguer' src='../img/burger.png' alt="Menu" />
+            </>
     );
 }
 
