@@ -1,0 +1,445 @@
+/* Colores */
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Tangerine&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none !important;
+  font-family: "Didact Gothic", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D2D4D5;
+}
+
+.contenedor {
+  margin: auto;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.contenedorContenido {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.contenedorContenidoDark {
+  background-color: #000;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.contenedorContenidoDarkTotal {
+  background-color: #000;
+  margin: 20px auto;
+  padding: 20px;
+  height: 100vh;
+}
+
+.menu {
+  background-color: #000 !important;
+  padding: 5px 0;
+}
+
+.contenedorBtnMovil {
+  display: none;
+  justify-content: space-between;
+}
+.contenedorBtnMovil button {
+  border: 1px solid transparent;
+  display: inline-block;
+  background: none;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.contenedorBtnMovil button img {
+  height: 20px;
+}
+
+.contenedorBtnMovil .btnMenuCerrar {
+  display: none;
+}
+
+.contenedorBtnMovil .btnMenuCerrar.activo {
+  display: inline-block;
+}
+
+.imgDown {
+  height: 5px;
+  margin-left: 5px;
+}
+
+.logo {
+  height: 25px;
+  margin: 5px 0;
+}
+
+.menuBar a, .menuBarCat a {
+  color: #D2D4D5;
+  text-decoration: none;
+  list-style: none;
+  font-size: 15px;
+}
+
+.menuBarCat {
+  margin: 10px 0;
+}
+
+.menuBar :hover, .menuBarCat :hover {
+  color: #F9D32B;
+  transition: all 0.3s;
+}
+
+.contenedorCategorias {
+  width: 100%;
+  margin: auto;
+}
+
+.imgCarrito {
+  height: 20px;
+}
+
+.cantCarrito {
+  color: #F9D32B;
+}
+
+.btnCarrito {
+  border: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuDropdown {
+  background-color: rgba(0, 0, 0, 0.7843137255);
+  width: 100%;
+}
+
+.menuDropItem {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.cardClass {
+  background-color: #D2D4D5;
+  width: 250px;
+  color: #000;
+  transition: all 0.5s;
+}
+.cardClass img {
+  width: 200px;
+}
+
+.cardClass:hover {
+  transform: scale(1.05);
+  background-color: #606163;
+  color: #D2D4D5;
+}
+.cardClass:hover .cardBtn {
+  opacity: 100%;
+  background-color: #000;
+  color: #F9D32B;
+}
+
+.cardBtn {
+  opacity: 0%;
+  transition: all 0.5s;
+  border: 0px;
+  background-color: #606163;
+  color: #D2D4D5;
+  width: 100%;
+}
+
+.cardDetail {
+  background-color: #D2D4D5;
+}
+.cardDetail div img {
+  width: 100%;
+}
+
+.btnDetail {
+  background-color: #606163;
+  color: #D2D4D5;
+  border: 0px;
+  transition: all 0.5s;
+  padding: 5px 0;
+}
+
+.btnDetail:hover {
+  background-color: #000;
+  color: #F9D32B;
+  transform: scale(1.02);
+}
+
+.contadorClass {
+  display: flex;
+  width: 75px;
+  justify-content: space-between;
+}
+
+.btnContador, .btnMenosDark, .btnMasDark, .btnMenos, .btnMas {
+  width: 25px;
+  height: 25px;
+  border: 0px;
+  background-color: #606163;
+  color: #D2D4D5;
+  transition: all 0.5s;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnMenos:hover {
+  color: #F9D32B;
+  background-color: #000;
+  transform: scale(0.9);
+}
+
+.btnMas:hover {
+  color: #F9D32B;
+  background-color: #000;
+  transform: scale(1.1);
+}
+
+.txt {
+  color: #000;
+}
+
+.txtDark {
+  color: #F9D32B;
+}
+
+.cardCart {
+  border: 1px solid #606163;
+}
+
+.cardCartDark {
+  border: 1px solid #F9D32B;
+}
+
+.itemCardDark {
+  color: #D2D4D5;
+}
+
+.itemTotal {
+  font-size: 25px;
+}
+
+.itemTotalDark {
+  font-size: 25px;
+  color: #F9D32B;
+}
+
+.btnDetailWarning {
+  background-color: #606163;
+  color: #D2D4D5;
+  border: 0px;
+  transition: all 0.5s;
+  padding: 5px 0;
+}
+
+.btnDetailWarning:hover {
+  background-color: #b70202;
+  color: #fff;
+  transform: scale(1.02);
+}
+
+.btnDetailWarningDark {
+  background-color: #606163;
+  color: #D2D4D5;
+  border: 0px;
+  transition: all 0.5s;
+  padding: 5px 0;
+}
+
+.btnDetailWarningDark:hover {
+  background-color: #b70202;
+  color: #fff;
+  transform: scale(1.02);
+}
+
+.formItem {
+  border: 2px solid #F9D32B;
+  background-color: #fff;
+  color: #000;
+}
+
+.formItemDark {
+  border: 2px solid #F9D32B;
+  background-color: #000;
+  color: #D2D4D5;
+}
+
+.detalleBase {
+  display: flex;
+  flex-direction: column;
+  vertical-align: botton;
+}
+
+.contForm {
+  margin-top: 10px;
+}
+
+.darkMode {
+  background-color: #202020;
+  padding-bottom: 20px;
+}
+
+.cardClassDark {
+  background-color: #606163;
+  width: 250px;
+  color: #D2D4D5;
+  transition: all 0.5s;
+}
+.cardClassDark img {
+  width: 200px;
+}
+
+.cardClassDark:hover {
+  transform: scale(1.05);
+  background-color: #000;
+  color: #D2D4D5;
+}
+.cardClassDark:hover .cardBtnDark {
+  opacity: 100%;
+  background-color: #F9D32B;
+  color: #000;
+}
+
+.cardBtnDark {
+  opacity: 0%;
+  transition: all 0.5s;
+  border: 0px;
+  background-color: #606163;
+  color: #F9D32B;
+  width: 100%;
+}
+
+.cardDetailDark {
+  background-color: #000;
+  color: #D2D4D5;
+}
+.cardDetailDark div img {
+  width: 100%;
+}
+
+.btnDetailDark {
+  background-color: #606163;
+  color: #D2D4D5;
+  border: 0px;
+  transition: all 0.5s;
+  padding: 5px 0;
+}
+
+.btnDetailDark:hover {
+  background-color: #F9D32B;
+  color: #000;
+  transform: scale(1.02);
+}
+
+.btnMasDark {
+  background-color: #606163;
+  color: #000;
+}
+
+.btnMenosDark {
+  background-color: #606163;
+  color: #000;
+}
+
+.btnMenosDark:hover {
+  color: #000;
+  background-color: #F9D32B;
+  transform: scale(0.9);
+}
+
+.btnMasDark:hover {
+  color: #000;
+  background-color: #F9D32B;
+  transform: scale(1.1);
+}
+
+.copyrigth {
+  color: #D2D4D5;
+  font-size: 10px;
+}
+
+.btnFooter {
+  background: none;
+  border: none;
+  margin: 0 5px;
+}
+.btnFooter img {
+  height: 15px;
+}
+
+.imgDropdown, .general, .especial, .cuerpo, .rostro {
+  position: absolute;
+  width: 600px;
+  height: 140px;
+}
+
+.rostro {
+  background: url(https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/rostro.png?alt=media&token=c5ca4c22-420e-46b0-a61c-04842dc283ad);
+}
+
+.cuerpo {
+  background: url(https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/cuerpo.png?alt=media&token=44ff18da-dcf5-47fe-843a-927b499a024c);
+}
+
+.especial {
+  background: url(https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/especial.png?alt=media&token=90823c7c-3c30-4554-935b-4800b521aef3);
+}
+
+.general {
+  background: url(https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/general.png?alt=media&token=d9b81930-771b-4efb-a56e-3bdfb306f422);
+}
+
+.menuIndex {
+  z-index: 1000;
+}
+
+.barra {
+  background-color: #F9D32B;
+  height: 10px;
+  width: 100%;
+}
+
+.txtHome {
+  color: #000;
+}
+
+.txtHomeDark {
+  color: #fff;
+}
+
+.txtHomeDetalle {
+  color: #F9D32B;
+}
+
+.txtHomeSize {
+  font-size: 20px;
+}
+
+.cardHome:hover .txtHomeSize {
+  color: #F9D32B;
+}
+
+.banner {
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/banner.png?alt=media&token=e4457c79-0f2d-4352-80a2-7c5f32feedc2);
+  height: 250px;
+}
+.banner h2 {
+  font-size: 30px;
+}
+
+.banner:hover .txtBanner {
+  color: #F9D32B;
+}
+
+.consulta {
+  height: 100px;
+}

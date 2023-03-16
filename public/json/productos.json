@@ -1,0 +1,212 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "L'Oréal Paris",
+        "nombre": "Hydra Energetic Anti-fatiga",
+        "precio": 6990,
+        "stock": 30,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/lorealHydraEnergetic.png?alt=media&token=78d1949d-0b27-4886-9e27-555e421a9736"
+    },
+    {
+        "id": 2,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "L'Oréal Paris",
+        "nombre": "Hydra Energetic Gel Limpiador",
+        "precio": 5260,
+        "stock": 33,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/lorealHydraGelLimpiador.png?alt=media&token=2489bc27-e006-46e0-94a4-d079656fc7c0"
+    },
+    {
+        "id": 3,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "L'Oréal Paris",
+        "nombre": "Hydra Energetic Gel Ultra Hidratante",
+        "precio": 4520,
+        "stock": 23,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/lorealHydraGelUltra.png?alt=media&token=f1e4583d-c98d-498f-b861-413b7a3a0c6e"
+    },
+        {
+        "id": 4,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "L'Oréal Paris",
+        "nombre": "Hydra Energetic AfterShave",
+        "precio": 3200,
+        "stock": 42,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/lorealHydraAfterShave.png?alt=media&token=fe5289de-fab7-4d57-af64-588eb6add3ce"
+    },
+    {
+        "id": 5,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "L'Oréal Paris",
+        "nombre": "Hydra Energetic Roll-on Ojos",
+        "precio": 2500,
+        "stock": 50,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/lorealHydraRollOn.png?alt=media&token=0314d304-f952-400e-b773-bec1f4f9cf75"
+    },
+    {
+        "id": 6,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "L'Oréal Paris",
+        "nombre": "Vita Lift Crema Anti-Edad Hidratante",
+        "precio": 7200,
+        "stock": 30,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/lorealVitaAntiEdad.png?alt=media&token=f50a5d84-aa95-4ac4-be5b-55f955ec7c24"
+    },
+    {
+        "id": 7,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "Nivea MEN",
+        "nombre": "Creme",
+        "precio": 3400,
+        "stock": 50,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/niveaMenCreme.png?alt=media&token=44531421-9f76-4858-a5df-a33c7729dc16"
+    },
+        {
+        "id": 8,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "Nivea MEN",
+        "nombre": "Active Energy Hidratante",
+        "precio": 4620,
+        "stock": 41,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/niveaMenActiveEnergyHidratante.png?alt=media&token=f978dbf1-bb8b-450d-ab29-a97e001df8de"
+    },
+    {
+        "id": 9,
+        "idCategoria": 2,
+        "categoria": "Cuerpo",
+        "marca": "Nivea MEN",
+        "nombre": "Protector Hidratante",
+        "precio": 3000,
+        "stock": 90,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/niveaMenProtectorHidratante.png?alt=media&token=3ac01835-3163-4571-a881-578324c883b1"
+    },
+    {
+        "id": 10,
+        "idCategoria": 2,
+        "categoria": "Cuerpo",
+        "marca": "Nivea MEN",
+        "nombre": "Active Clean Shower Gel",
+        "precio": 4200,
+        "stock": 54,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/niveaMenActiveCleanShower.png?alt=media&token=7703e3ea-28db-4c05-87a5-e23c61a598b5"
+    },
+        {
+        "id": 11,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "Asepxia",
+        "nombre": "Carbon Activo Jabon en Barra",
+        "precio": 651,
+        "stock": 47,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/asepxiaCarbonJabonBarra.png?alt=media&token=f843dd27-2229-484c-91f7-af0a48035f33"
+    },
+    {
+        "id": 12,
+        "idCategoria": 1,
+        "categoria": "Rostro",
+        "marca": "Asepxia",
+        "nombre": "Carbon Activo Mascarilla Purificante",
+        "precio": 1510,
+        "stock": 53,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/asepxiaCarbonMascarilla.png?alt=media&token=9b8df1e7-b942-44d5-af78-7916a482b06e"
+    },
+        {
+        "id": 13,
+        "idCategoria": 2,
+        "categoria": "Cuerpo",
+        "marca": "Veet MEN",
+        "nombre": "Crema Depilatoria Todo el Cuerpo",
+        "precio": 1180,
+        "stock": 15,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/veetMenCremaDepilatoria.png?alt=media&token=19b8b69f-c9f0-4569-affa-177fc94b9033"
+    },
+    {
+        "id": 14,
+        "idCategoria": 2,
+        "categoria": "Cuerpo",
+        "marca": "Depimiel",
+        "nombre": "Crema Depilatoria Cuerpo",
+        "precio": 790,
+        "stock": 65,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/depimielCremaDepilatoriaCuerpo.png?alt=media&token=f03400c4-0e4b-4bd9-a677-7ea268597fea"
+    },
+    {
+        "id": 15,
+        "idCategoria": 2,
+        "categoria": "Cuerpo",
+        "marca": "Depimiel",
+        "nombre": "Crema Depilatoria Intima",
+        "precio": 1190,
+        "stock": 29,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/depimielCremaDepilatoriaIntima.png?alt=media&token=cddd88e3-96f9-433b-8dba-4590b005fa59"
+    },
+    {
+        "id": 16,
+        "idCategoria": 3,
+        "categoria": "Especial",
+        "marca": "Philips",
+        "nombre": "OneBlade",
+        "precio": 18599,
+        "stock": 12,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/philipsOneBlade.png?alt=media&token=2d9d9d59-d77d-481f-9e03-c0469afcc1c0"
+    },
+        {
+        "id": 17,
+        "idCategoria": 3,
+        "categoria": "Especial",
+        "marca": "Philips",
+        "nombre": "OneBlade Cabezal x 1",
+        "precio": 3399,
+        "stock": 47,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/philipsOneBladeRepuesto.png?alt=media&token=7d928903-34dc-4cd7-bfba-ca12999e4984"
+    },
+    {
+        "id": 18,
+        "idCategoria": 3,
+        "categoria": "Especial",
+        "marca": "Philips",
+        "nombre": "Afeitadora Series3000",
+        "precio": 17499,
+        "stock": 16,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/philipsAfeitadora3000.png?alt=media&token=ccf3154d-d0d6-441f-936f-3822da341b65"
+    },
+    {
+        "id": 19,
+        "idCategoria": 3,
+        "categoria": "Especial",
+        "marca": "Braun",
+        "nombre": "Afeitadora Series 5",
+        "precio": 23999,
+        "stock": 8,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/braunAfeitadoraS5.png?alt=media&token=150ea274-d25e-47ce-a621-5d5347e78d7c"
+    },
+    {
+        "id": 20,
+        "idCategoria": 3,
+        "categoria": "Especial",
+        "marca": "Braun",
+        "nombre": "Afeitadora Corporal CruzerBody 5",
+        "precio": 21599,
+        "stock": 3,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/braunAfeitadoraCruzerBody5.png?alt=media&token=c94dff2e-e807-4c39-acad-661eef18f5db"
+    },
+        {
+        "id": 21,
+        "idCategoria": 3,
+        "categoria": "Especial",
+        "marca": "Remington",
+        "nombre": "Cepillo Facial Recharge",
+        "precio": 9499,
+        "stock": 19,
+        "img": "https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/remingtonCepilloFacial.png?alt=media&token=4b77508e-7849-47a8-9aef-60c65b0a6910"
+    }
+]
