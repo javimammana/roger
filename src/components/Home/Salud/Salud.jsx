@@ -18,7 +18,7 @@ const Salud = () => {
                     <div>
                         <img className='img-fluid' src="https://firebasestorage.googleapis.com/v0/b/roger-fbc1e.appspot.com/o/salud01.jpg?alt=media&token=648d7d27-1c11-435c-8d50-dcb25c935315" alt="Productos para gym" />
                     </div>
-                    <h3 className={`${darkMode ? "txtHomeDark" : "txtHome"} txtHomeSize p-3`}>Productos que no pueden faltar en tu neceser de Gimnacio</h3>
+                    <h3 className={`${darkMode ? "txtHomeDark" : "txtHome"} txtHomeSize p-3`}>Productos que no pueden faltar en tu neceser de Gimnasio</h3>
                 </div>
 
                 <div className='cardHome p-2 col-12 col-md-3'>
